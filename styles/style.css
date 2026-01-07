@@ -3,6 +3,14 @@
   src: url("/fonts/Proxima-Nova-Regular.ttf");
 }
 
+/* Algemeen */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 html {
   --primary-color: rgb(255 155 33);
   --link-color: rgb(0 113 179);
@@ -23,10 +31,8 @@ html {
 
 body {
   font-family: "Proxima Nova", sans-serif;
-}
-
-header {
-  background-color: var(--primary-color);
+  line-height: 1.5;
+  width: 375px;
 }
 
 h1,
@@ -41,8 +47,42 @@ button {
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--link-color);
   border-radius: 0.25rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 img {
-  width: 350px;
+  display: block;
+}
+
+/* Header */
+
+header {
+  background-color: var(--primary-color);
+}
+
+.main-nav {
+  padding: 5px;
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+
+    li a {
+      text-decoration: none;
+      color: var(--tertiary-text-color);
+      font-size: var(--font-size-s);
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}
+
 }
