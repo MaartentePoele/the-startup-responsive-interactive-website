@@ -1,3 +1,48 @@
+@font-face {
+  font-family: "Proxima Nova";
+  src: url("/fonts/Proxima-Nova-Regular.ttf");
+}
+
+html {
+  --primary-color: rgb(255 155 33);
+  --link-color: rgb(0 113 179);
+  --primary-text-color: rgb(51 51 51);
+  --secondary-text-color: rgb(77 77 77);
+  --tertiary-text-color: rgb(255 255 255);
+  --primary-svg-background-color: rgba(0 0 0 0.6);
+
+  --font-size-s: 0.75rem;
+  --font-size-m: 1rem;
+  --font-size-l: 1.25rem;
+  --font-size-xl: 1.5rem;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+body {
+  font-family: "Proxima Nova", sans-serif;
+}
+
+header {
+  background-color: var(--primary-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
+button {
+  background: none;
+  color: var(--link-color);
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--link-color);
+  border-radius: 0.25rem;
+}
+
 img {
-  width: 375px;
+  width: 350px;
 }
