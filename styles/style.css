@@ -85,4 +85,21 @@ header {
   }
 }
 
+/* Main content */
+
+.main-image {
+  position: relative;
+
+  img {
+    max-width: 100%;
+  }
+}
+
+.share-button {
+  position: absolute;
+  top: 15px;
+  right: -15px;
+  overflow: clip;
+
+  background-color: white;
 }
