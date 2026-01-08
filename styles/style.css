@@ -65,7 +65,7 @@ button {
   background: none;
   color: var(--link-color);
   padding: 0.5rem 0.75rem;
-  border: 1px solid var(--link-color);
+  border: none;
   border-radius: 0.25rem;
 
   &:hover {
@@ -84,7 +84,7 @@ header {
 }
 
 .main-nav {
-  padding: 5px;
+  padding: 0px 5px;
 
   ul {
     display: flex;
@@ -97,6 +97,9 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
+      justify-content: space-around;
+      padding: 3px 0px;
+      gap: 4px;
 
       color: var(--tertiary-text-color);
       font-size: var(--font-size-xs);
@@ -116,8 +119,8 @@ header {
 
 .share-button {
   position: absolute;
-  top: 15px;
-  right: -15px;
+  top: 16px;
+  right: -16px;
   overflow: clip;
   background-color: white;
 }
@@ -176,6 +179,7 @@ header {
 }
 
 .main-info {
+  position: relative;
   margin: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid var(--primary-border-color);
@@ -190,6 +194,16 @@ header {
   border-radius: 4px;
   margin-bottom: 8px;
   font-weight: 600;
+}
+
+.kaart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  gap: 8px;
 }
 
 .postcode-wrapper {
@@ -249,7 +263,7 @@ header {
 
   border-top: 1px solid var(--primary-border-color);
 
-  .logo {
+  .logo-design-stalen-deuren {
     display: flex;
     align-items: center;
     gap: 0.5rem;
