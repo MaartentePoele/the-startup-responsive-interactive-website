@@ -36,14 +36,29 @@ html {
 
 body {
   font-family: "Proxima Nova", sans-serif;
+  color: var(--primary-text-color);
   line-height: 1.5;
   width: 375px;
 }
 
-h1,
-h2,
-h3 {
+h1 {
+  font-size: var(--font-size-xl);
   font-weight: 600;
+}
+
+h2 {
+  font-size: var(--font-size-l);
+  font-weight: 600;
+}
+
+h3 {
+  font-size: var(--font-size-m);
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
 }
 
 button {
@@ -79,13 +94,12 @@ header {
     list-style: none;
 
     li a {
-      text-decoration: none;
-      color: var(--tertiary-text-color);
-      font-size: var(--font-size-xs);
-
       display: flex;
       flex-direction: column;
       align-items: center;
+
+      color: var(--tertiary-text-color);
+      font-size: var(--font-size-xs);
     }
   }
 }
@@ -161,8 +175,68 @@ header {
   top: 16px;
 }
 
+.main-info {
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--primary-border-color);
+}
+
 .nieuw {
   background-color: var(--primary-color);
   color: var(--tertiary-text-color);
   font-size: var(--font-size-xs);
+
+  padding: 3px 8px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.postcode-wrapper {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.postcode {
+  color: var(--secondary-text-color);
+}
+
+.price {
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  margin: 8px 0px;
+}
+
+.main-info-list {
+  display: flex;
+  margin: 8px 0px;
+
+  dd {
+    margin-right: 1rem;
+  }
+}
+
+.maandlasten-wrapper {
+  display: flex;
+  gap: 8px;
+  align-items: start;
+  height: fit-content;
+}
+
+.omschrijving {
+  margin: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.advertentie-tab {
+  margin-left: 1rem;
+  background-color: rgb(153 153 153);
+  color: var(--tertiary-text-color);
+  font-size: var(--font-size-xs);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-weight: 600;
 }
