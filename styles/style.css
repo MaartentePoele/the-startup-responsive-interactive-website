@@ -100,7 +100,7 @@ header {
       align-items: center;
       justify-content: space-around;
       padding: 3px 0;
-      gap: 4px;
+      gap: 0.25rem;
       color: var(--tertiary-text-color);
       font-size: var(--font-size-xs);
     }
@@ -119,8 +119,8 @@ header {
 
 .share-button {
   position: absolute;
-  top: 16px;
-  right: -16px;
+  top: 1rem;
+  right: -1rem;
   background-color: white;
   overflow: clip;
 }
@@ -135,7 +135,7 @@ header {
 
   ul {
     display: flex;
-    gap: 12px;
+    gap: 0.75rem;
     list-style: none;
 
     li a {
@@ -147,7 +147,7 @@ header {
       text-decoration: none;
 
       span {
-        padding-top: 8px;
+        padding-top: 0.5rem;
       }
     }
   }
@@ -161,7 +161,7 @@ header {
   height: 64px;
   overflow: hidden;
   object-fit: cover;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 
   img {
     height: 100%;
@@ -170,10 +170,10 @@ header {
 
 .svg-wrapper {
   position: absolute;
-  top: 16px;
+  top: 1rem;
   width: 32px;
   height: 32px;
-  padding: 4px;
+  padding: 0.25rem;
   background-color: var(--primary-svg-background-color);
   border-radius: 50%;
 }
@@ -191,11 +191,11 @@ header {
   color: var(--tertiary-text-color);
   font-size: var(--font-size-xs);
   font-weight: 600;
-  border-radius: 4px;
+  border-radius: 0.25rem;
 }
 
 .nieuw {
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
   background-color: var(--primary-color);
 }
 
@@ -206,7 +206,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .postcode-wrapper {
@@ -219,14 +219,14 @@ header {
 }
 
 .price {
-  margin: 8px 0;
+  margin: 0.5rem 0;
   font-size: var(--font-size-l);
   font-weight: 600;
 }
 
 .main-info-list {
   display: flex;
-  margin: 8px 0;
+  margin: 0.5rem 0;
 
   dd {
     margin-right: 1rem;
@@ -237,7 +237,7 @@ header {
   display: flex;
   align-items: start;
   height: fit-content;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .omschrijving {
@@ -256,8 +256,9 @@ header {
   display: flex;
   align-items: center;
   margin: 0.5rem 1rem 1rem 1rem;
-  padding-top: 1rem;
+  padding: 1rem 0 0.5rem 0;
   border-top: 1px solid var(--primary-border-color);
+  border-bottom: 1px solid var(--primary-border-color);
 
   .logo-design-stalen-deuren {
     display: flex;
@@ -272,7 +273,7 @@ header {
 
   img {
     width: 120px;
-    border-radius: 8px;
+    border-radius: 0.5rem;
   }
 }
 .advertisement-link {
@@ -281,4 +282,83 @@ header {
   padding: 3px 12px;
   border: 1px solid var(--link-color);
   border-radius: 0.25rem;
+}
+
+.kenmerken {
+  padding: 0.5rem 1rem;
+
+  section:nth-of-type(1) {
+    border-radius: 0.5rem 0.5rem 0 0;
+    border-bottom: none;
+  }
+
+  section {
+    margin-top: 1rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    border: 1px solid var(--primary-border-color);
+    border-radius: 0.5rem;
+
+    h3 {
+      display: flex;
+      gap: 0.5rem;
+      padding: 0.5rem 0.5rem 0 0.5rem;
+    }
+
+    dl {
+      margin: 0.5rem 0.5rem 0 0.5rem;
+
+      dt {
+        padding: 0.5rem 0 0.25rem 0;
+        color: var(--secondary-text-color);
+        border-top: 1px solid var(--primary-border-color);
+      }
+
+      dd {
+        padding-bottom: 0.5rem;
+        color: var(--primary-text-color);
+      }
+    }
+  }
+}
+
+.small-advertisement {
+  padding: 1rem;
+  background-color: rgb(238 239 245);
+  border: 1px solid var(--primary-border-color);
+  border-top: none;
+  border-radius: 0 0 0.5rem 0.5rem;
+
+  img {
+    height: 24px;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.oppervlakten-en-inhoud {
+  dt:nth-of-type(1) {
+    color: var(--primary-text-color);
+  }
+
+  dt:nth-of-type(n + 2):nth-of-type(-n + 4),
+  dd:nth-of-type(-n + 3) {
+    padding-left: 1rem;
+  }
+}
+
+.energie {
+  a {
+    display: flex;
+    gap: 0.5rem;
+    color: var(--secondary-text-color);
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-color: rgb(204 204 204);
+    text-underline-offset: 6px;
+  }
+
+  dd {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.25rem;
+  }
 }
