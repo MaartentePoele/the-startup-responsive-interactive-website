@@ -240,3 +240,35 @@ header {
   border-radius: 4px;
   font-weight: 600;
 }
+
+.large-advertisement {
+  margin: 0.5rem 1rem 1rem 1rem;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+
+  border-top: 1px solid var(--primary-border-color);
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: var(--font-size-xs);
+
+    img {
+      width: 24px;
+    }
+  }
+
+  img {
+    width: 120px;
+    border-radius: 8px;
+  }
+}
+.advertisement-link {
+  border: 1px solid var(--link-color);
+  border-radius: 0.25rem;
+  padding: 3px 12px;
+  margin-top: 0.5rem;
+  display: inline-block;
+}
