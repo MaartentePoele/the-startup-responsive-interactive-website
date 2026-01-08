@@ -23,11 +23,11 @@ html {
   --primary-svg-background-color: rgb(0 0 0 / 60%);
   --primary-border-color: rgb(230 230 230);
 
-  --font-size-xs: 0.75rem;
-  --font-size-s: 0.875rem;
-  --font-size-m: 1rem;
-  --font-size-l: 1.25rem;
-  --font-size-xl: 1.5rem;
+  --font-size-xs: 0.75rem; /*12px*/
+  --font-size-s: 0.875rem; /*14px*/
+  --font-size-m: 1rem; /*16px*/
+  --font-size-l: 1.25rem; /*20px*/
+  --font-size-xl: 1.5rem; /*24px*/
 }
 
 .bold {
@@ -159,4 +159,10 @@ header {
   padding: 4px;
   border-radius: 50%;
   top: 16px;
+}
+
+.nieuw {
+  background-color: var(--primary-color);
+  color: var(--tertiary-text-color);
+  font-size: var(--font-size-xs);
 }
