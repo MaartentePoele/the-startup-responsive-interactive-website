@@ -330,6 +330,7 @@ header {
 
   img {
     height: 24px;
+    width: auto;
     margin-bottom: 0.5rem;
   }
 }
