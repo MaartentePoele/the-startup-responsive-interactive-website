@@ -225,7 +225,7 @@ img {
 
 .price {
   margin: 0.5rem 0;
-  font-size: var(--font-size-xxl);
+  font-size: var(--font-size-xl);
   font-weight: var(--font-bold);
 }
 
