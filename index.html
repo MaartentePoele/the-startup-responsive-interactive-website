@@ -10,7 +10,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="main-header">
     <nav class="main-nav">
       <ul class="main-nav-list">
         <li><a href=""><svg class="main-nav-svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -83,7 +83,7 @@
 
   <main>
     <figure class="main-image">
-      <img width="500" src="assets/images/huis.png" alt="">
+      <img src="assets/images/huis.png" alt="">
       <button class="share-button"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
           <title>Share</title>
           <path fill-rule="evenodd" clip-rule="evenodd"
@@ -420,8 +420,64 @@
               fill="#333333" />
           </svg>Energie</h3>
 
+        <dialog id="energielabel-popup" popover>
+          <header class="popup-header">
+            <h3>Wat zegt een energielabel?</h3>
+            <button><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M26.2866 24.1655L36.8936 13.5595C37.4766 12.9755 37.4766 12.0205 36.8936 11.4375C36.3096 10.8535 35.3556 10.8535 34.7716 11.4375L24.1656 22.0445L13.5586 11.4375C12.9756 10.8535 12.0206 10.8535 11.4376 11.4375C10.8536 12.0205 10.8536 12.9755 11.4376 13.5595L22.0436 24.1655L11.4376 34.7715C10.8536 35.3555 10.8536 36.3105 11.4376 36.8935C12.0206 37.4775 12.9756 37.4775 13.5586 36.8935L24.1656 26.2865L34.7716 36.8935C35.3556 37.4775 36.3096 37.4775 36.8936 36.8935C37.4766 36.3105 37.4766 35.3555 36.8936 34.7715L26.2866 24.1655Z"
+                  fill="#0071B3" />
+              </svg>
+            </button>
+          </header>
+
+          <div class="popup-content-wrapper">
+            <p>Een energielabel laat zien hoe energiezuinig een huis is. Dat lijkt een klein detail, maar het maakt een groot verschil in comfort en kosten.</p>
+            <a href="https://www.funda.nl/meer-weten/energielabel/">Lees meer over energielabels</a>
+
+            <ul>
+              <li>
+                <h4>Energielabel A (of hoger)</h4>
+                <p>Als je een huis koopt met energielabel A of hoger, weet je dat je een comfortabele en zeer goed geïsoleerde woning hebt. Hoe meer plusjes
+                  achter de letter A, hoe energiezuiniger het pand is.</p>
+              </li>
+              <li>
+                <h4>Energielabel B</h4>
+                <p>Huizen met label B zijn goed geïsoleerd. Dak, muren en vloeren houden warmte goed vast. Vaak hebben de ramen HR++-glas in plaats van
+                  standaard
+                  dubbelglas.</p>
+              </li>
+              <li>
+                <h4>Energielabel C</h4>
+                <p>Veel huizen in Nederland hebben label C. Redelijk goed geïsoleerd en daardoor ook redelijk energiezuinig.</p>
+              </li>
+              <li>
+                <h4>Energielabel D</h4>
+                <p>Label D betekent: matige isolatie. Let op dat de cv-ketel wat ouder kan zijn en niet alle ramen dubbelglas hebben.</p>
+              </li>
+              <li>
+                <h4>Energielabel E</h4>
+                <p>Huizen met label E verliezen veel warmte door enkelglas en oude verwarmingssystemen. Dat merk je direct in hogere energiekosten.</p>
+              </li>
+              <li>
+                <h4>Energielabel F</h4>
+                <p>Met label F is het huis slecht geïsoleerd. Vaak ontbreken energiebesparende maatregelen zoals HR+++ glas of een zuinige cv-ketel. Daardoor
+                  gaat
+                  veel warmte verloren.</p>
+              </li>
+              <li>
+                <h4>Energielabel G</h4>
+                <p>Label G is het minst gunstig. Door de slechte isolatie kost het veel energie om het huis warm te krijgen. Toch kan verduurzamen de moeite
+                  waard
+                  zijn—al vraagt dat vaak om flinke investeringen.</p>
+              </li>
+            </ul>
+          </div>
+        </dialog>
+
         <dl>
-          <dt><a href=""><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <dt><button class="i-button" popovertarget="energielabel-popup"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path d="M12 2C17.5228 2 22 6.47715 22 12C22 17.5228 17.5228 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2Z" fill="#0071B3" />
                 <path
                   d="M12 8C12.4142 8 12.75 7.66421 12.75 7.25C12.75 6.83579 12.4142 6.5 12 6.5C11.5858 6.5 11.25 6.83579 11.25 7.25C11.25 7.66421 11.5858 8 12 8Z"
@@ -429,7 +485,7 @@
                 <path
                   d="M12 9C11.5858 9 11.25 9.33579 11.25 9.75V16.75C11.25 17.1642 11.5858 17.5 12 17.5C12.4142 17.5 12.75 17.1642 12.75 16.75V9.75C12.75 9.33579 12.4142 9 12 9Z"
                   fill="white" />
-              </svg>Energielabel</a></dt>
+              </svg>Energielabel</button></dt>
           <dd><svg width="44" height="24" viewBox="0 0 44 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <g clip-path="url(#clip0_90_3486)">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0H31.4286L44 12.519L31.4286 24H0V0Z" fill="#187428" />

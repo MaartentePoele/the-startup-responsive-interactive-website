@@ -3,7 +3,7 @@
   src: url("/fonts/Proxima-Nova-Regular.ttf");
 }
 
-/* Algemeen */
+/* General */
 
 * {
   box-sizing: border-box;
@@ -27,8 +27,9 @@ html {
   --font-size-xs: 0.75rem; /*12px*/
   --font-size-s: 0.875rem; /*14px*/
   --font-size-m: 1rem; /*16px*/
-  --font-size-l: 1.25rem; /*20px*/
-  --font-size-xl: 1.5rem; /*24px*/
+  --font-size-l: 1.125rem; /*18px*/
+  --font-size-xl: 1.25rem; /*20px*/
+  --font-size-xxl: 1.5rem; /*24px*/
 
   --font-bold: 600;
 }
@@ -41,12 +42,12 @@ body {
 }
 
 h1 {
-  font-size: var(--font-size-xl);
+  font-size: var(--font-size-xxl);
   font-weight: var(--font-bold);
 }
 
 h2 {
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xl);
   font-weight: var(--font-bold);
 }
 
@@ -61,15 +62,11 @@ a {
 }
 
 button {
-  padding: 0.5rem 0.75rem;
-  color: var(--link-color);
+  font: inherit;
   background: none;
   border: none;
-  border-radius: 0.25rem;
 
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
 }
 
 img {
@@ -82,7 +79,7 @@ img {
 
 /* Header */
 
-header {
+.main-header {
   background-color: var(--primary-color);
 }
 
@@ -123,8 +120,14 @@ header {
   position: absolute;
   top: 1rem;
   right: -1rem;
+  color: var(--link-color);
   background-color: white;
-  overflow: clip;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+
+  svg {
+    display: block;
+  }
 }
 
 /* Media options nav */
@@ -222,7 +225,7 @@ header {
 
 .price {
   margin: 0.5rem 0;
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-xxl);
   font-weight: var(--font-bold);
 }
 
@@ -349,8 +352,9 @@ header {
 }
 
 .energie {
-  a {
+  .i-button {
     display: flex;
+    align-items: center;
     gap: 0.5rem;
     color: var(--secondary-text-color);
     text-decoration: underline;
@@ -364,4 +368,50 @@ header {
     gap: 1rem;
     margin-top: 0.25rem;
   }
+}
+
+dialog {
+  border-radius: 0.25rem;
+  border: none;
+  overflow: auto;
+
+  h3 {
+    font-size: var(--font-size-xl);
+  }
+
+  h4 {
+    font-size: var(--font-size-l);
+  }
+
+  /* Position when clicked on close */
+  transform: translateY(50vh);
+
+  /* Transition from open to closed */
+  transition: transform 0.4s ease-out, display 0.4s allow-discrete;
+
+  &::backdrop {
+    background: rgb(0 0 0 / 50%);
+  }
+
+  &:popover-open {
+    /* Position when opened */
+    transform: translateY(0px);
+
+    /* Transition from closed to open */
+    transition: transform 0.4s ease-out;
+
+    @starting-style {
+      /* Position when clicked on open */
+      transform: translateY(50vh);
+    }
+  }
+}
+
+html:has(:popover-open) {
+  overflow: hidden;
+}
+
+.popup-content-wrapper {
+  /* overflow: auto; */
+  height: 50vh;
 }
