@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  width: 375px;
+  /* width: 375px; */
   color: var(--primary-text-color);
   font-family: "Proxima Nova", sans-serif;
   line-height: 1.5;
@@ -118,8 +118,17 @@ img {
 .main-image {
   position: relative;
 
+  overflow: hidden;
+
   img {
+    object-fit: cover;
     max-width: 100%;
+    transition: all 0.25s ease;
+
+    &:hover {
+      scale: 1.025;
+      opacity: 0.9;
+    }
   }
 }
 
