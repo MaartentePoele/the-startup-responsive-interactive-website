@@ -35,7 +35,7 @@ html {
 }
 
 body {
-  /* width: 375px; */
+  width: 375px;
   color: var(--primary-text-color);
   font-family: "Proxima Nova", sans-serif;
   line-height: 1.5;
@@ -228,6 +228,21 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 0.5rem;
+
+  .kaart-svg-wrapper {
+    overflow: hidden;
+    border-radius: 0.4rem;
+
+    svg {
+      display: block;
+      object-fit: cover;
+      transition: all 0.5s ease;
+
+      &:hover {
+        scale: 1.2;
+      }
+    }
+  }
 }
 
 .postcode-wrapper {
