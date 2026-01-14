@@ -17,4 +17,5 @@ iButton.addEventListener("click", function () {
 
 xButton.addEventListener("click", function () {
   popup.classList.add("visually-hidden");
+  body.classList.remove("overflow-hidden");
 });
