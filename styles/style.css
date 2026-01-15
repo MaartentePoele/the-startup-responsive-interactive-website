@@ -35,7 +35,8 @@ html {
 }
 
 body {
-  width: 375px;
+  /* width: 375px; */
+  /* width: 768px; */
   color: var(--primary-text-color);
   font-family: "Proxima Nova", sans-serif;
   line-height: 1.5;
@@ -96,9 +97,15 @@ img {
   ul {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     gap: 1rem;
     list-style: none;
+
+    .menu {
+      @media (min-width: 768px) {
+        display: none;
+      }
+    }
 
     li a {
       display: flex;
@@ -109,6 +116,22 @@ img {
       gap: 0.25rem;
       color: var(--tertiary-text-color);
       font-size: var(--font-size-xs);
+    }
+
+    .secondary-nav-item {
+      display: none;
+
+      @media (min-width: 768px) {
+        display: inline;
+      }
+
+      &:nth-of-type(6) {
+        margin-right: 10vw;
+      }
+
+      a {
+        font-size: var(--font-size-m);
+      }
     }
   }
 }
@@ -236,7 +259,7 @@ img {
     svg {
       display: block;
       object-fit: cover;
-      transition: all 0.5s ease;
+      transition: all 0.25s ease;
 
       &:hover {
         scale: 1.2;
