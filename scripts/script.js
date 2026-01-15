@@ -2,16 +2,12 @@ const iButton = document.querySelector("#iButton");
 const xButton = document.querySelector("#xButton");
 const popup = document.querySelector("#popup");
 const body = document.querySelector("#mainBody");
-let pixelsScrolled = 0;
-
-window.addEventListener("scroll", function () {
-  pixelsScrolled = window.scrollY;
-  console.log(pixelsScrolled);
-});
 
 iButton.addEventListener("click", function () {
-  popup.classList.remove("visually-hidden");
+  const pixelsScrolled = window.scrollY;
+
   popup.style.setProperty("--y", pixelsScrolled + "px");
+  popup.classList.remove("visually-hidden");
   body.classList.add("overflow-hidden");
 });
 
