@@ -136,8 +136,6 @@ img {
   }
 }
 
-/* Main content */
-
 .path-nav {
   display: none;
 
@@ -148,6 +146,8 @@ img {
     gap: 0.25rem;
   }
 }
+
+/* Main content */
 
 .main-image {
   position: relative;
@@ -171,6 +171,7 @@ img {
     max-width: 100%;
   }
 
+  /* Layout of house images on bigger screen */
   .secondary-image {
     display: none;
 
@@ -371,6 +372,7 @@ img {
     border-radius: 0.5rem;
   }
 }
+
 .advertisement-link {
   display: inline-block;
   margin-top: 0.5rem;
@@ -435,6 +437,7 @@ img {
     color: var(--primary-text-color);
   }
 
+  /* Selects the 2nd - 4th <dt> and 1st to 3rd <dd> */
   dt:nth-of-type(n + 2):nth-of-type(-n + 4),
   dd:nth-of-type(-n + 3) {
     padding-left: 1rem;
@@ -461,10 +464,12 @@ img {
 }
 
 .popup {
-  --y: 0px;
+  --y: 0px; /* Gets changed into the scrollY value in JS */
 
   position: absolute;
-  top: calc(var(--y) + 20vh);
+  top: calc(
+    var(--y) + 20vh
+  ); /* Puts the popup 20vh lower than the top of the screen */
   max-width: 760px;
   height: 80vh;
   padding: 1rem;
