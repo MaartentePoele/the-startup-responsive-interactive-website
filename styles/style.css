@@ -138,6 +138,7 @@ img {
 
 .path-nav {
   display: none;
+  color: var(--secondary-text-color);
 
   @media (min-width: 768px) {
     display: flex;
@@ -232,6 +233,10 @@ img {
       font-size: var(--font-size-s);
       text-decoration: none;
 
+      @media (min-width: 768px) {
+        font-size: var(--font-size-m);
+      }
+
       span {
         padding-top: 0.5rem;
       }
@@ -247,6 +252,10 @@ img {
   height: 64px;
   overflow: hidden;
   border-radius: 0.25rem;
+
+  @media (min-width: 768px) {
+    display: none;
+  }
 }
 
 .svg-wrapper {
