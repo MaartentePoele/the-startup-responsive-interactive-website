@@ -355,10 +355,16 @@ img {
 .large-advertisement {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin: 0.5rem 1rem 1rem 1rem;
   padding: 1rem 0 0.5rem 0;
   border-top: 1px solid var(--primary-border-color);
   border-bottom: 1px solid var(--primary-border-color);
+
+  img {
+    width: 120px;
+    border-radius: 0.5rem;
+  }
 
   .logo-design-stalen-deuren {
     display: flex;
@@ -369,11 +375,6 @@ img {
     img {
       width: 24px;
     }
-  }
-
-  img {
-    width: 120px;
-    border-radius: 0.5rem;
   }
 }
 
