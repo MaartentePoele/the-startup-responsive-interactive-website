@@ -8,6 +8,10 @@ Voorbeeld van een detailpagina van een huis op Funda.
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Check [hier](https://maartentepoele.github.io/the-startup-responsive-interactive-website/) de website.
+
+<img width="245" height="500" alt="mobile-black (1)" src="https://github.com/user-attachments/assets/b0055673-46e9-4784-abd1-fcf56d680959" />
+<img width="348" height="500" alt="tablet-black" src="https://github.com/user-attachments/assets/5e9654a1-0b77-4657-b8a6-294a4e008439" />
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
