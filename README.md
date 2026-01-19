@@ -13,7 +13,14 @@ Voorbeeld van een detailpagina van een huis op Funda.
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
 ### Ademruimte en inspringen
+Om mijn HTML leesbaar te houden maak ik gebruik van ademruimte en inspringen.
+
+Voorbeeld van ademruimte: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/1994f86c76dd028d1d1b40a4b14b9f5fe094e1c4/index.html#L184-L193
+Voorbeeld van inspringen: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/1994f86c76dd028d1d1b40a4b14b9f5fe094e1c4/index.html#L151-L165
+
 ### Volgorde en nesten van CSS selectors
+Om mijn CSS-bestand overzichtelijk te houden zet ik de CSS selectors in dezelfde volgorde als in het HTML-bestand. Bovenin zet ik wat algemene opmaak van HTML-elementen: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/1994f86c76dd028d1d1b40a4b14b9f5fe094e1c4/styles/style.css#L37-L57
+
 ### Nesten van media queries
 ### Naamgeving
 
