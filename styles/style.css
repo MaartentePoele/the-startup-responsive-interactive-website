@@ -35,8 +35,7 @@ html {
 }
 
 body {
-  /* max-width: 375px; */
-  max-width: 768px;
+  max-width: 768px; /* Nog niet responsive gemaakt voor breedere schermen */
   color: var(--primary-text-color);
   font-family: "Proxima Nova", sans-serif;
   line-height: 1.5;
@@ -384,6 +383,10 @@ img {
   padding: 3px 12px;
   border: 1px solid var(--link-color);
   border-radius: 0.25rem;
+
+  @media (min-width: 768px) {
+    margin: 0;
+  }
 }
 
 .kenmerken {
@@ -409,6 +412,11 @@ img {
     dl {
       margin: 0.5rem 0.5rem 0 0.5rem;
 
+      @media (min-width: 768px) {
+        display: grid;
+        grid-template-columns: 40% 60%;
+      }
+
       dt {
         padding: 0.5rem 0 0.25rem 0;
         color: var(--secondary-text-color);
@@ -418,6 +426,11 @@ img {
       dd {
         padding-bottom: 0.5rem;
         color: var(--primary-text-color);
+
+        @media (min-width: 768px) {
+          border-top: 1px solid var(--primary-border-color);
+          padding: 0.5rem 0 0.25rem 0;
+        }
       }
     }
   }
@@ -430,10 +443,25 @@ img {
   border-top: none;
   border-radius: 0 0 0.5rem 0.5rem;
 
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+
+    p {
+      margin-left: 6rem;
+    }
+  }
+
   img {
     width: auto;
     height: 24px;
     margin-bottom: 0.5rem;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
   }
 }
 
@@ -443,9 +471,14 @@ img {
   }
 
   /* Selects the 2nd - 4th <dt> and 1st to 3rd <dd> */
-  dt:nth-of-type(n + 2):nth-of-type(-n + 4),
-  dd:nth-of-type(-n + 3) {
+  dt:nth-of-type(n + 2):nth-of-type(-n + 4) {
     padding-left: 1rem;
+  }
+
+  dd:nth-of-type(-n + 4) {
+    @media (min-width: 768px) {
+      padding-left: 0rem;
+    }
   }
 }
 
