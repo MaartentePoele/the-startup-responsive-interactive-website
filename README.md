@@ -22,7 +22,12 @@ Voorbeeld van inspringen: https://github.com/MaartentePoele/the-startup-responsi
 Om mijn CSS-bestand overzichtelijk te houden zet ik de CSS selectors in dezelfde volgorde als in het HTML-bestand. Bovenin zet ik wat algemene opmaak van HTML-elementen: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/1994f86c76dd028d1d1b40a4b14b9f5fe094e1c4/styles/style.css#L37-L57
 
 ### Nesten van media queries
+Door het nesten van media queries is de herhaling van code wat minder: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/1994f86c76dd028d1d1b40a4b14b9f5fe094e1c4/styles/style.css#L120-L129
+
 ### Naamgeving
+In mijn CSS-bestand staan variabelen met goed beschrijvende namen wat ze makkelijk aanpasbaar maken: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/02e9f57cce70fe8f23ad513392ce7914a5196e7b/styles/style.css#L14-L35
+
+In HTML geef ik classes aan buttons (`<button class="info-button">`) zodat ik het in JS kan ophalen: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/02e9f57cce70fe8f23ad513392ce7914a5196e7b/scripts/script.js#L2
 
 ## Bronnen
 
