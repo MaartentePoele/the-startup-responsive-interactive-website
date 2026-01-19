@@ -471,7 +471,8 @@ img {
   }
 
   /* Selects the 2nd - 4th <dt> and 1st to 3rd <dd> */
-  dt:nth-of-type(n + 2):nth-of-type(-n + 4) {
+  dt:nth-of-type(n + 2):nth-of-type(-n + 4),
+  dd:nth-of-type(-n + 4) {
     padding-left: 1rem;
   }
 
