@@ -483,7 +483,7 @@ img {
 }
 
 .energie {
-  .i-button {
+  .info-button {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -496,8 +496,13 @@ img {
 
   dd {
     display: flex;
+    align-items: center;
     margin-top: 0.25rem;
     gap: 1rem;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
   }
 }
 
@@ -545,7 +550,7 @@ img {
       font-size: var(--font-size-xl);
     }
 
-    .x-button {
+    .close-button {
       display: flex;
       justify-content: center;
       align-items: center;

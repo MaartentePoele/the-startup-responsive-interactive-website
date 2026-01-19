@@ -1,13 +1,13 @@
 // Declarations of CSS selectors
-const iButton = document.querySelector("#iButton");
-const xButton = document.querySelector("#xButton");
-const popup = document.querySelector("#popup");
-const body = document.querySelector("#mainBody");
+const infoButton = document.querySelector(".info-button");
+const closeButton = document.querySelector(".close-button");
+const popup = document.querySelector(".popup");
+const body = document.querySelector(".main-body");
 const label = document.querySelector(".energy-label-a");
 const iIcon = document.querySelector(".i-icon");
 
 // Opens the popup and freezes background scrolling
-iButton.addEventListener("click", function () {
+infoButton.addEventListener("click", function () {
   // Checks how far down the user scrolled
   const pixelsScrolled = window.scrollY;
 
@@ -19,7 +19,7 @@ iButton.addEventListener("click", function () {
 });
 
 // Closes the popup and unfreezes background scrolling
-xButton.addEventListener("click", function () {
+closeButton.addEventListener("click", function () {
   popup.classList.add("visually-hidden");
   body.classList.remove("overflow-hidden");
 });
