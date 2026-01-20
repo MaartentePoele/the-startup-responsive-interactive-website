@@ -267,7 +267,7 @@ button {
 }
 
 .new,
-.advertentie-tab {
+.advertisement-tab {
   padding: 3px 8px;
   color: var(--tertiary-text-color);
   font-size: var(--font-size-xs);
@@ -328,21 +328,21 @@ button {
   }
 }
 
-.montly-costs-wrapper {
+.monthly-costs-wrapper {
   display: flex;
   align-items: start;
   height: fit-content;
   gap: 0.5rem;
 }
 
-.omschrijving {
+.description {
   display: flex;
   flex-direction: column;
   margin: 1rem;
   gap: 1rem;
 }
 
-.advertentie-tab {
+.advertisement-tab {
   margin-left: 1rem;
   background-color: rgb(153 153 153);
 }
@@ -361,7 +361,7 @@ button {
     border-radius: 0.5rem;
   }
 
-  .logo-design-stalen-deuren {
+  .logo-thuis-in-staal {
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -479,7 +479,7 @@ button {
   }
 }
 
-.energie {
+.energy {
   .info-button {
     display: flex;
     align-items: center;
@@ -587,7 +587,7 @@ button {
         display: flex;
         gap: 1rem;
 
-        .popup-energie-label {
+        .popup-energy-label {
           display: flex;
           min-width: 2.75rem;
           height: 1.5rem;
@@ -602,37 +602,37 @@ button {
           );
         }
 
-        .energie-label-a {
+        .energy-label-a {
           color: var(--tertiary-text-color);
           background-color: #009342;
         }
 
-        .energie-label-b {
+        .energy-label-b {
           color: var(--tertiary-text-color);
           background-color: #1ba943;
         }
 
-        .energie-label-c {
+        .energy-label-c {
           color: var(--primary-text-color);
           background-color: #9ecf1b;
         }
 
-        .energie-label-d {
+        .energy-label-d {
           color: var(--primary-text-color);
           background-color: #f8f51c;
         }
 
-        .energie-label-e {
+        .energy-label-e {
           color: var(--primary-text-color);
           background-color: #f4b003;
         }
 
-        .energie-label-f {
+        .energy-label-f {
           color: var(--tertiary-text-color);
           background-color: #df6d14;
         }
 
-        .energie-label-g {
+        .energy-label-g {
           color: var(--tertiary-text-color);
           background-color: #db261d;
         }
