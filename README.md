@@ -23,6 +23,12 @@ De toegankelijkheid van de website is op verschillende manieren getest. Eén van
 ### Huisstijl
 Er is goed gehouden aan de huisstijl. Alle kleuren, fonts, font-sizes en spacing is overgenomen uit het Figma-design. Hieronder staat het Figma-design (links) en de website (rechts): 
 
+<img width="242" height="500" alt="Schermafbeelding 2026-01-21 103353" src="https://github.com/user-attachments/assets/c90e4627-e474-486d-bd2a-180442fd1fa7" />
+<img width="236" height="500" alt="Schermafbeelding 2026-01-21 103306" src="https://github.com/user-attachments/assets/bd102a6b-6787-4be7-9347-e233d22614d2" />
+
+### Interactief
+
+
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
 
