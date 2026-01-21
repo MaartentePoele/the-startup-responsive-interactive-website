@@ -18,7 +18,10 @@ Check [hier](https://maartentepoele.github.io/the-startup-responsive-interactive
 Zo ziet de website eruit op mobiel en tablet. Er zijn tot nu toe twee breakpoints. Eén op 375px (voor mobiel) en één op 768px (voor tablet).
 
 ### Toegankelijk
+De toegankelijkheid van de website is op verschillende manieren getest. Eén van de testen heeft ervoor gezorgt dat alle klikbare elementen toegankelijk zijn met het gebruik van tab en enter. Ook staan ze op een logische volgorde.
 
+### Huisstijl
+Er is goed gehouden aan de huisstijl. Alle kleuren, fonts, font-sizes en spacing is overgenomen uit het Figma-design. Hieronder staat het Figma-design (links) en de website (rechts): 
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
