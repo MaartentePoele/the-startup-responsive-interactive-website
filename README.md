@@ -31,6 +31,10 @@ De interactie op de website is een popup dat meer uitleg geeft over energielabel
 
 https://github.com/user-attachments/assets/90ad4171-21b7-400e-94df-207ad58b1133
 
+Met feedback en feedforward wordt de gebruiker (onbewust) begeleid met de popup. De feedforward zijn de icoontjes.
+<img width="164" height="37" alt="Schermafbeelding 2026-01-21 105815" src="https://github.com/user-attachments/assets/762a9ab7-ae3c-4d0b-bf83-08c2d9f21b6f" />
+<img width="51" height="40" alt="Schermafbeelding 2026-01-21 105821" src="https://github.com/user-attachments/assets/f98b7e1e-48dd-485f-8418-7f68f25c50ce" />
+Hiermee is het duidelijk voor de gebruiker wat er gaat gebeuren. Het i-icoontje laat de popup zien en het kruisje verbergt de popup weer. De feedback krijg je te zien in het tevoorschijn komen en verbergen van de popup.
 
 
 ## Kenmerken
