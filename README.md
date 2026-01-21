@@ -10,8 +10,15 @@ Voorbeeld van een detailpagina van een huis op Funda.
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Check [hier](https://maartentepoele.github.io/the-startup-responsive-interactive-website/) de website.
 
-<img width="245" height="500" alt="mobile-black (1)" src="https://github.com/user-attachments/assets/b0055673-46e9-4784-abd1-fcf56d680959" />
+### Responsive
+
+<img width="245" height="500" alt="mobile-black" src="https://github.com/user-attachments/assets/b0055673-46e9-4784-abd1-fcf56d680959" />
 <img width="348" height="500" alt="tablet-black" src="https://github.com/user-attachments/assets/5e9654a1-0b77-4657-b8a6-294a4e008439" />
+
+Zo ziet de website eruit op mobiel en tablet. Er zijn tot nu toe twee breakpoints. Eén op 375px (voor mobiel) en één op 768px (voor tablet).
+
+### Toegankelijk
+
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
