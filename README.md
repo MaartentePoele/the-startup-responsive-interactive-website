@@ -27,6 +27,10 @@ Er is goed gehouden aan de huisstijl. Alle kleuren, fonts, font-sizes en spacing
 <img width="236" height="500" alt="Schermafbeelding 2026-01-21 103306" src="https://github.com/user-attachments/assets/bd102a6b-6787-4be7-9347-e233d22614d2" />
 
 ### Interactief
+De interactie op de website is een popup dat meer uitleg geeft over energielabels.
+
+https://github.com/user-attachments/assets/90ad4171-21b7-400e-94df-207ad58b1133
+
 
 
 ## Kenmerken
