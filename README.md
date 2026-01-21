@@ -32,8 +32,10 @@ De interactie op de website is een popup dat meer uitleg geeft over energielabel
 https://github.com/user-attachments/assets/90ad4171-21b7-400e-94df-207ad58b1133
 
 Met feedback en feedforward wordt de gebruiker (onbewust) begeleid met de popup. De feedforward zijn de icoontjes.
+
 <img width="164" height="37" alt="Schermafbeelding 2026-01-21 105815" src="https://github.com/user-attachments/assets/762a9ab7-ae3c-4d0b-bf83-08c2d9f21b6f" />
 <img width="51" height="40" alt="Schermafbeelding 2026-01-21 105821" src="https://github.com/user-attachments/assets/f98b7e1e-48dd-485f-8418-7f68f25c50ce" />
+
 Hiermee is het duidelijk voor de gebruiker wat er gaat gebeuren. Het i-icoontje laat de popup zien en het kruisje verbergt de popup weer. De feedback krijg je te zien in het tevoorschijn komen en verbergen van de popup.
 
 
@@ -56,8 +58,6 @@ Door het nesten van media queries is de herhaling van code wat minder: https://g
 In mijn CSS-bestand staan variabelen met goed beschrijvende namen wat ze makkelijk aanpasbaar maken: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/02e9f57cce70fe8f23ad513392ce7914a5196e7b/styles/style.css#L14-L35
 
 In HTML geef ik classes aan buttons (`<button class="info-button">`) zodat ik het in JS kan ophalen: https://github.com/MaartentePoele/the-startup-responsive-interactive-website/blob/02e9f57cce70fe8f23ad513392ce7914a5196e7b/scripts/script.js#L2
-
-## Bronnen
 
 ## Licentie
 
