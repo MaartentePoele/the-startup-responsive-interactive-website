@@ -96,7 +96,7 @@ button {
     gap: 1rem;
     list-style: none;
 
-    .menu {
+    .menu-list-item {
       @media (min-width: 768px) {
         display: none;
       }
